@@ -1,0 +1,32 @@
+{% extends 'publish.html'%}
+{% load static%}
+
+{% block formulario%}
+   <section>
+        <div class="conteiner-form_posting">
+            <div>
+                <a href="{% url 'formulário2' %}"><i class="title-form_posting">Livros</i></a>
+            </div>
+            <form action="{% url 'formulário'%}" method="POST">{%csrf_token%}
+                <br>
+                Titulo: <input class="form-control" type="text" name="title" placeholder="Titulo">
+                <br>
+                <label for="exampleFormControlTextarea1">Introdução:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="text_introdution" rows="3"></textarea>
+                <br>
+                <label for="exampleFormControlTextarea1">Desenvolvimento:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="text_development" rows="3"></textarea>
+                <br>
+                <label for="exampleFormControlTextarea1">Conclusão:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="text_conclusion" rows="3"></textarea>
+                <br>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+                <br>
+            </form>
+        </div>
+    </section> 
+    <br>
+    <br>
+    <br>
+
+{% endblock formulario%}

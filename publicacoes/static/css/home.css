@@ -1,0 +1,190 @@
+.conteiner-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-midia{
+    max-width: 100%;
+    margin-top: 6rem;
+}
+
+.img-social-midia{
+    max-width: 60px;
+    padding: 3px;
+
+}
+
+.navs{
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.perfil{
+    border: 1rem solid white;
+    border-radius: 50%;
+    max-height: 260px;
+    margin-left: 19px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.conteiner-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{  
+    color: black;
+    text-decoration: none;
+    padding: 0;
+}
+
+/*sobre min*/
+
+.conteiner-1{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display:flex
+    
+}
+
+.conteiner{
+    background-color: #C1C1C1;
+    color: white;
+    max-width: 80%;
+
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.conteiner div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Courier, monospace;
+    font-size: 2rem;
+
+}
+
+.text-sobre{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Courier New, monospace;
+    font-size: 19px;
+}
+
+.conteiner-2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.detals{
+    margin-left: 21%;
+    font-family:Courier, monospace ;
+    font-size: 2rem ;
+
+}
+
+#name{
+    font-size: 22px;
+}
+
+#years{
+    font-size: 19px;
+    margin-left: 25%;
+}
+
+#email{
+    margin-left: 9%;
+    font-size: 19px;
+}
+
+#detals-1{
+    margin-left: 15%;
+    font-family:Courier, monospace ;
+    font-size: 2rem ;
+
+}
+
+
+
+
+h3{
+    font-family: Courier, monospace;
+    font-size: 3rem;
+    margin-top: 60px;
+
+    margin-bottom: 30px;
+    margin-right: 19px;
+    
+}
+
+/* authenticação */
+
+.conteiner-form{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+    margin-right: 27%;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.nav-authentication{
+    margin-top: 30px;
+}
+
+/* formulário */
+
+.conteiner-form_posting{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.title-form_posting{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.conteiner-form_posting div{
+    display: flex;
+}
+
+/* livros */
+
+.section-books{
+    margin-left: 36%;
+}
+
+.title-book{
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.book-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+}
+
+
+
+
+
+

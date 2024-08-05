@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+
+{% block books %}
+    <section class="section-books" >
+        <h3 class="book-title">Livros que Li:</h3>
+        <br>
+        {% for books in books %}
+            <div>
+                <main>
+                    <div class="conteiner-book">
+                        <a href="{{books.link}}"><li class="title-book"><strong>{{books.book}}</strong></li></a>
+                        <strong>Link:</strong><a href="{{books.link}}">{{books.link}}</a>
+                        <br>
+                        <br>
+                    </div>
+                </main>
+            <div>
+        {% endfor %}
+    </section>
+{% endblock books%}

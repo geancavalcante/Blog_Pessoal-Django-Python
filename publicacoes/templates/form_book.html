@@ -1,0 +1,21 @@
+{% extends 'publish.html'%}
+{% load static%}
+
+{% block form_book%}
+    <section>
+        <div class="conteiner-form_posting">
+            <div>
+                <a href="{% url 'formulário_postagens'%}"><i class="title-form_posting">Blog</i></a> 
+            </div>
+            <form action="{% url 'formulário_livros'%}" method="POST">{%csrf_token%}
+                <br>
+                Livro: <input class="form-control" type="text" name="book" placeholder="Livro">
+                <br>
+                Link: <input class="form-control" type="text" name="link" placeholder="Link">
+                <br>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+                <br>
+            </form>
+        </div>
+    </section>
+{% endblock form_book%}
