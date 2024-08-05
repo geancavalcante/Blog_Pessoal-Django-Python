@@ -1,4 +1,5 @@
 from django.db import models
+
     
 class Books(models.Model):
     book = models.CharField(max_length=10)
