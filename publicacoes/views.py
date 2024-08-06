@@ -3,7 +3,7 @@ from django.contrib.auth import authenticate
 from .models import Books
 
 def home(request):
-    return render(request, 'index.html')
+    return render(request, '404.html')
 
 def publish(request):
     #posting = Posting.objects.all()
